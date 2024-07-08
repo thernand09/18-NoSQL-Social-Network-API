@@ -32,7 +32,7 @@ const thoughtSchema = new Schema ({
     id: false
 });
 // Define a virtual property 'reactionCount' that computes the number of reactions
-thoughtSchema.virtuals('reactionCount').get(function () {
+thoughtSchema.virtual('reactionCount').get(function () {
     return this.reactions.length;
 });
 

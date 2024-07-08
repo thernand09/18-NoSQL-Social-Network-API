@@ -13,7 +13,13 @@ const userSchema = new Schema ({
         required: true,
         unique: true,
          // Validate email format
-        match: [/.+@.+\..+/, 'Must match an email adress!']
+         validate: {
+            validator: function (v) {
+                return /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(v);
+            },
+            message: `Not a valid email`,
+        },
+
     },
     thoughts: [{   
         type: Schema.Types.ObjectId,
