@@ -2,7 +2,8 @@
 const { connect, connection } = require('mongoose');
 
 // Define the connection string for MongoDB
-const connectionString ='mongodb://localhost/social-network-api';
+const connectionString =
+process.env.MONGODB_URI || 'mongodb://localhost/social-network-api';
 
 // Connect to MongoDB using the specified connection string
 connect(connectionString);
