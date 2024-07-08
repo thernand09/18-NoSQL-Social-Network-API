@@ -1,5 +1,6 @@
 const {Schema, Types} = require('mongoose');
 
+
 // Define a new Mongoose schema for a reaction
 const reactionSchema = new Schema (
     {
