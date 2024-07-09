@@ -50,4 +50,4 @@ Note that there is no testing for this project!
 
 GitHub: https://github.com/thernand09/18-NoSQL-Social-Network-API
 
-Video link: 18-NoSQL-Social-Network-API.gif
+Video link: [18-NoSQL-Social-Network-API.gif](https://1drv.ms/i/c/5ca06fe9d3022510/EbXWmfnv6ZdOnH0qASO4l88B8RYLM3LAyV3zLejWEupvsg?e=cZwIRx)
