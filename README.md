@@ -45,3 +45,9 @@ Note that there is no testing for this project!
 
 ## Project Demo
 ![Project Demo](./assets/18-NoSQL-Social-Network-API.gif)
+
+## Linke
+
+GitHub: https://github.com/thernand09/18-NoSQL-Social-Network-API
+
+Video link: 18-NoSQL-Social-Network-API.gif
